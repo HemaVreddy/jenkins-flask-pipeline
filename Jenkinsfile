@@ -4,7 +4,7 @@ pipeline {
         stage('Build Docker Image') {
             steps {
                 script {
-                    docker.build("your-dockerhub-username/jenkins-flask")
+                    docker.build("Hemalatha98/jenkins-flask")
                 }
             }
         }
@@ -19,3 +19,4 @@ pipeline {
         }
     }
 }
+
